@@ -4,7 +4,11 @@ import PageTitle from "ui/components/data-display/PageTitle/PageTitle";
 import UserInformation from "ui/components/data-display/UserInformation/UserInformation";
 import TextFieldMask from "ui/components/inputs/TextFieldMask/TextFieldMask";
 import { Button, Typography } from "@mui/material";
-import { FormElementsContainer } from "ui/styles/pages/index.style";
+import {
+  FormElementsContainer,
+  ProfissionaisPaper,
+  ProfissionaisContainer,
+} from "ui/styles/pages/index.style";
 
 const Home: NextPage = () => {
   return (
@@ -32,12 +36,64 @@ const Home: NextPage = () => {
           Buscar
         </Button>
       </FormElementsContainer>
-      <UserInformation
-        name={"Thiago Cezario"}
-        picture={"https://github.com/Thiago-cez.png"}
-        rating={3}
-        description={"São Paulo"}
-      />
+      <ProfissionaisPaper>
+        <ProfissionaisContainer>
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+          <UserInformation
+            name={"Thiago Cezario"}
+            picture={"https://github.com/Thiago-cez.png"}
+            rating={3}
+            description={"São Paulo"}
+          />
+        </ProfissionaisContainer>
+      </ProfissionaisPaper>
     </div>
   );
 };

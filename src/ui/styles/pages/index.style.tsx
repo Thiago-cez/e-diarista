@@ -9,3 +9,11 @@ export const FormElementsContainer = styled("div")`
   max-width: 650px;
   margin: 0 auto ${({ theme }) => theme.spacing(7)};
 `;
+
+export const ProfissionaisPaper = styled(Paper)`
+  padding: ${({ theme }) => theme.spacing(7)};
+  margin: 0 auto ${({ theme }) => theme.spacing(10)};
+`;
+export const ProfissionaisContainer = styled("div")`
+  margin: 0 auto ${({ theme }) => theme.spacing(10)};
+`;
